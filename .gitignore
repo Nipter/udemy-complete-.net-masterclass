@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.vscode/
+.vs/
+
+# Package directories
+**/packages/
+*.nupkg
+*.snupkg
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Visual Studio Code files
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Generated files
+*.g.*
+*.generated.*
+
+# WPF-specific files
+# Exclude compiled XAML (Generated during build)
+*.g.i.cs
+*.g.cs
+
+# Include XAML files (explicitly allow them to be tracked)
+!*.xaml
